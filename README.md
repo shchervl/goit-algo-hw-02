@@ -38,6 +38,32 @@ uv sync
 uv run task_01/task_01.py
 ```
 
+### Task 02 — Palindrome checker
+
+```bash
+uv run python task_02/task_02.py
+```
+
+## Testing
+
+### Run all tests
+
+```bash
+uv run pytest
+```
+
+### Run tests for a specific task
+
+```bash
+uv run pytest task_02/
+```
+
+### Run tests with verbose output
+
+```bash
+uv run pytest task_02/ -v
+```
+
 ## Managing Dependencies
 
 ### Add a package
