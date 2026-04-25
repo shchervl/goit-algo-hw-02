@@ -24,6 +24,8 @@ if __name__ == "__main__":
     while True:
         try:
             text = input("Введіть рядок (або Ctrl+C для виходу): ")
+            if not text.strip():
+                continue
             if is_palindrome(text):
                 print(f"'{text}' — паліндром\n")
             else:
